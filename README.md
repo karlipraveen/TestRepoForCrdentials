@@ -1,4 +1,4 @@
-# Java Reachability Playground by A Security Guru
+# Java Reachability Playground
 
 This is an intentionally vulnerable application. It was purposely designed to demonstrate the capabilities of Snyk's Reachable
 Vulnerabilities feature and includes both a "Reachable" vulnerability (with a direct data flow to the vulnerable function) and a "Potentially Reachable" vulnerability (where only partial data exists for determining reachability).
@@ -39,3 +39,6 @@ to next java run.*
 
 ### Snyk UI
 ![Snyk UI Reachable Vulnerabilities](UI_reachable.png)
+
+### Synk Auth Token Link
+https://app.snyk.io/account?_gl=1*103u7wb*_gcl_aw*R0NMLjE3MzI2MjQwMTQuRUFJYUlRb2JDaE1JOHJ5eXNmXzVpUU1WZXNaTUFoMVlYak42RUFBWUFTQUFFZ0xzRF9EX0J3RQ..*_gcl_au*MTYwNTE2MDI5MC4xNzMyNjI0MDEw*_ga*MTY3MjYzMjA2Ny4xNzMyNjI0MDEw*_ga_X9SH3KP7B4*MTczMjYyNDAwOC4xLjEuMTczMjYyODEyOS4wLjAuMA..
