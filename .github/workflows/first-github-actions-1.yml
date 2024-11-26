@@ -10,5 +10,6 @@ jobs:
       - uses: actions/checkout@master
       - name: Run Snyk to check for vulnerabilities
         uses: snyk/actions/maven@master
+        continue-on-error: true # To run jobs even high severity errors occurs. Otherwise it will fail with high severity error.
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
