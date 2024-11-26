@@ -7,3 +7,8 @@ jobs:
     steps:
       - name: Echo a String
         run: echo "Hello Security Gurus!! This is our first GitHub Actions Workflow file"
+      - uses: actions/checkout@master
+      - name: Run Snyk to check for vulnerabilities
+        uses: snyk/actions/maven@master
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
