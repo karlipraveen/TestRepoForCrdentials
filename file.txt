@@ -1,1 +1,13 @@
 This is sample file
+
+### 1. GitBash job ###
+https://github.com/asecurityguru/simple-github-action.git
+name: Run Shell Commands
+on: [push]
+
+jobs:
+  run-shell-command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello Security Gurus!! This is our first GitHub Actions Workflow file"
